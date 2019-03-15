@@ -1,0 +1,177 @@
+.start {
+    text-align: left;
+}
+
+.end {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.header-container {
+    width: 100%;
+    position: absolute;
+}
+
+.institute {
+    width: 215px;
+    float: left;
+}
+
+.institute .title {
+    margin: 4px;
+    font-size: 11px;
+    color: black !important;
+    font-family: "Khmer MEF2", "Mef2";
+}
+
+.institute .subtitle {
+    margin: 4px;
+    font-size: 10px;
+    color: black !important;
+    font-family: "Khmer MEF2", "Mef2";
+}
+
+.institute .symbol {
+    font-family: 'Tacteng', 'Tacteing', 'TacteingA', 'Tacteing A Regular';
+    font-size: 35px;
+    line-height: 0.5;
+    padding: 0;
+    margin: 0;
+}
+
+.country {
+    width: 150px;
+    height: 100px;
+    float: right;
+}
+
+.country .title {
+    margin: 4px;
+    font-size: 11px;
+    color: black !important;
+    font-family: "Khmer MEF2", "Mef2";
+    line-height: 20px;
+}
+
+.country .subtitle {
+    margin: 4px;
+    font-size: 11px;
+    color: black !important;
+    font-weight: bold;
+    font-family: "Khmer MEF1", "Mef2";
+    line-height: 20px;
+}
+
+.country .symbol {
+    font-family: 'Tacteng', 'Tacteing', 'TacteingA', 'Tacteing A Regular';
+    font-size: 35px;
+    line-height: 0.5;
+    padding: 0;
+    margin: 0;
+}
+
+.report-title-container {
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+
+.report-title-container .title {
+    margin: 0;
+    font-family: "Khmer MEF2", "Mef2";
+    font-size: 11px;
+    color: black;
+}
+
+.report-title-container .subtitle {
+    margin: 0;
+    font-size: 10px;
+    font-family: "Khmer MEF1", "Mef1";
+    color: black;
+    padding-top: 4px;
+}
+
+/*table*/
+
+table.rpt-table {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+table.rpt-table thead {
+    display: table-header-group;
+    background-color: #dfdfdf;
+}
+
+table.rpt-table thead th {
+    font-size: 10px;
+    font-family: "Khmer MEF2", "Mef2";
+    font-weight: normal;
+    padding: 4px;
+    border-top: 2px solid #606266;
+    border-right: 1px solid #606266;
+    border-left: 1px solid #606266;
+    border-bottom: 1.5px solid #606266;
+}
+
+table.rpt-table thead .span-th {
+    border-top: none;
+}
+
+table.rpt-table thead .span-th:first-child {
+    border-left: 1px solid #606266;
+}
+
+table.rpt-table thead .span-th:last-child {
+    border-right: 1px solid #606266;
+}
+
+table.rpt-table thead th:first-child, table.rpt-table tbody td:first-child {
+    border-left: 2px solid #606266;
+}
+
+table.rpt-table thead th:last-child, table.rpt-table tbody td:last-child {
+    border-right: 2px solid #606266;
+}
+
+table.rpt-table tbody td {
+    font-size: 10px;
+    font-family: "Khmer MEF1", "Mef1";
+    border-bottom: 0.3px solid #606266;
+    border-left: 0.3px solid #606266;
+    padding: 4px;
+}
+
+table.rpt-table tbody tr:hover {
+    background-color: #ecf5ff;
+    cursor: pointer;
+}
+
+table.rpt-table tbody tr {
+    background-color: #ffffff;
+    page-break-inside: avoid;
+}
+
+table.rpt-table tbody tr:first-child td {
+    border-top: none;
+}
+
+table.rpt-table tbody tr:last-child td {
+    border-bottom: 2px solid #606266;
+}
+
+@media print {
+    @page {
+        size: auto;
+        margin: 10mm 7mm 10mm 7mm;
+    }
+}

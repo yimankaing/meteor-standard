@@ -1,0 +1,138 @@
+a:-webkit-any-link {
+  color: white;
+  text-decoration: none;
+}
+
+a[data-v-f0ebd048]:-webkit-any-link {
+  color: #13b8da !important;
+}
+
+/* Container */
+.container {
+  height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #f5f7fa;
+  color: #303133;
+  line-height: 66px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 55px !important;
+
+  .page-title {
+    font-size: 24px;
+    font-weight: 300;
+    padding-right: 10px;
+    line-height: 50px;
+  }
+
+  .menu-left {
+    position: absolute;
+  }
+
+  .menu-right {
+    float: right;
+  }
+}
+
+h3 {
+  font-family: "Khmer OS Muol Light";
+}
+
+
+.asterisk:before {
+  content: '*';
+  color: #fc4b4e;
+  margin-right: 4px;
+}
+
+.center-element {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.auth-background {
+  width: 100%;
+  height: 100%;
+  background: url("/images/background.png") center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+/* Content */
+.content {
+  padding: 11px 14px 0 14px;
+  background: #eee;
+
+  .breadcrumb {
+    margin: 0px 0px 15px;
+  }
+
+  .router-view {
+    min-height: calc(99vh - 190px);
+    background-color: white;
+    margin: 0px 0px 0px;
+    padding: 25px 25px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px 0 10px;
+  }
+  .footer span {
+    font-size: 13px;
+    color: #666;
+  }
+}
+
+.report-view {
+  /*box-shadow: 0px 0px 10px -5px black;
+  border-radius: 10px;*/
+  //margin-top: 5px;
+  //zoom: 120%;
+  //padding: 10px;
+}
+
+.dl-text {
+  line-height: 21px;
+}
+
+.a4-portrait {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+.a4-landscape {
+  width: 29.7cm;
+  height: 21cm;
+}
+
+.a3-portrait {
+  width: 29.7cm;
+  height: 42cm;
+}
+
+.a3-landscape {
+  width: 42cm;
+  height: 29.7cm;
+}
+
+.a5-portrait {
+  width: 14.8cm;
+  height: 21cm;
+}
+
+.a5-landscape {
+  width: 21cm;
+  height: 14.8cm;
+}

@@ -1,0 +1,29 @@
+.table-style {
+  width: 100%;
+  border-top: 1px solid #dcdfe6;
+  border-right: 1px solid #dcdfe6;
+  border-bottom: transparent;
+  border-left: 1px solid #dcdfe6;
+  border-image: initial;
+  font-size: 14px;
+  color: #000000;
+}
+
+.table-data {
+  border-bottom: 1px solid #dcdfe6;
+  text-align: center;
+  height: 50px;
+  width: 60px;
+}
+
+.table-row {
+  height: 50px;
+}
+
+.table-head {
+  border-bottom: 1px solid #dcdfe6;
+}
+
+.table-head-container {
+  background-color: #ffffff;
+}

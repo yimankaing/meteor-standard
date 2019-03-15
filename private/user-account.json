@@ -1,0 +1,24 @@
+[
+  {
+    "username": "super",
+    "email": "super@app.com",
+    "password": "super123",
+    "profile": {
+      "fullName": "Super"
+    },
+    "roles": [
+      "super", "admin"
+    ]
+  },
+  {
+    "username": "admin",
+    "email": "admin@app.com",
+    "password": "123456",
+    "profile": {
+      "fullName": "Admin"
+    },
+    "roles": [
+      "admin"
+    ]
+  }
+]
