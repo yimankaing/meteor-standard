@@ -6,7 +6,7 @@
 - Created: n/a
 - Finished: n/a
 - Official use: n/a
-- Maintainer: phirum narong yiman
+- Maintainer: phirumsim@gmail.com narongsao98@gmail.com yimankaing@gamil.com
 - Developer: phirum narong yiman
 
 ## requirements
